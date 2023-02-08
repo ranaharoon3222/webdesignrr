@@ -53,7 +53,7 @@ export default function Tabs() {
 
   return (<>
 
-    <div className="mt-[-60px] ">
+    <div className="mt-[-60px] sm:mt-10 ">
       <div className="wrapper w-full max-w-md  px-2 sm:py-16 sm:px-0">
         <Tab.Group>
 

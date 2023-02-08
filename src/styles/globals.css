@@ -10,7 +10,11 @@
 
 
 }
+.swiper-slide{
+border: 5px solid rgba(57, 75, 57, 0.572);
+border-radius: 10px;
 
+}
 
 .wrapper {
     max-width: 1240px;

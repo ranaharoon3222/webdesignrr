@@ -3,7 +3,7 @@ import React from 'react'
 const contact = () => {
     return (
         <>
-            <div className="bg-[#13191F] pb-10 text-white">
+            <div className=" pb-10 ">
                 <div className="wrapper">
                     <div className='line_container py-10'>
                         <div className='line'>
@@ -12,17 +12,17 @@ const contact = () => {
                     <h1 className='text-center text-2xl sm:text-4xl font-semibold mb-10'>
                         SAY HELLO!
                     </h1>
-                    <p className='text-center text-[#94A9B1]' >We would love to hear from you. Tell us how we can help you and we will revert to you within next 24 hours with an
+                    <p className='text-center ' >We would love to hear from you. Tell us how we can help you and we will revert to you within next 24 hours with an
                         appropriate cost and timeline to execute your project.</p>
 
                     <div className="grid_contact mt-10">
 
                         <div>
                             <form action="">
-                                <input className='mr-5 mb-5 bg-[#2c353d] w-full sm:w-[40%] text-[#c1c1c1] p-[8px] border rounded-md border-solid border-[#2c353d]' type="text" placeholder='Name*' />
-                                <input className='bg-[#2c353d] w-full sm:w-[40%] text-[#c1c1c1] p-[8px] border rounded-md border-solid border-[#2c353d]' type="text" placeholder='Email Address*' /> <br />
-                                <input className='bg-[#2c353d] mt-5 sm:mt-0 w-full sm:w-[40%] text-[#c1c1c1] p-[8px] border rounded-md border-solid border-[#2c353d]' type="text" placeholder='Phone Number*' />
-                                <select className='bg-[#2c353d] mt-5 sm:mt-0 text-[#868d94] sm:ml-5 border rounded-md border-solid border-[#2c353d] p-[12px] w-full sm:w-[40%]' name="" id="">
+                                <input className='mr-5 mb-5  w-full sm:w-[40%] text-[#c1c1c1] p-[8px] border rounded-md border-solid ' type="text" placeholder='Name*' />
+                                <input className=' w-full sm:w-[40%] text-[#c1c1c1] p-[8px] border rounded-md border-solid ' type="text" placeholder='Email Address*' /> <br />
+                                <input className=' mt-5 sm:mt-0 w-full sm:w-[40%] text-[#c1c1c1] p-[8px] border rounded-md border-solid ' type="text" placeholder='Phone Number*' />
+                                <select className=' mt-5 sm:mt-0  sm:ml-5 border rounded-md border-solid  p-[12px] w-full sm:w-[40%]' name="" id="">
                                     
                                     <option value="">Search Engine</option>
                                     <option value="">From Friend/Colleague</option>
@@ -35,14 +35,14 @@ const contact = () => {
                                 {/* dropdown */}
 
                                 <div className='flex justify-between max-w-[520px] mt-5 '>
-                                <p className='mb-2 mt-7 text-[#868d94]'>Cooomments / Feedback / Enquiry</p>
+                                <p className='mb-2 mt-7 '>Cooomments / Feedback / Enquiry</p>
                                 <img className='h-[70px] w-[100px] sm:w-[100px]  sm:mb-[-20px] z-50' src="/text-area-bg (1).png" alt="" />
 
                                 </div>
                                 
-                                <textarea className='border rounded-md border-solid border-[#2c353d] bg-[#2c353d] w-full sm:w-[84%]' name="" id="" cols="30" rows="10"></textarea> <br />
+                                <textarea className='border rounded-md border-solid border-[#2c353d]  w-full sm:w-[84%]' name="" id="" cols="30" rows="10"></textarea> <br />
 
-                                <input className='mt-5 bg-[#2c353d] w-[60%] text-[#c1c1c1] p-[8px] border rounded-md border-solid border-[#2c353d]' type="text" placeholder='Security text*' /> <br />
+                                <input className='mt-5 w-[60%] text-[#c1c1c1] p-[8px] border rounded-md border-solid border-[#2c353d]' type="text" placeholder='Security text*' /> <br />
 
                                 <button className='bg-[#f55950] border rounded-full border-solid border-[#f55950] mt-10 mb-10 sm:mb-0  px-20 py-2' >Submit</button>
                             </form>
