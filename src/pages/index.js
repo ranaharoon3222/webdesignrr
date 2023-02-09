@@ -1,25 +1,27 @@
 import React from 'react'
 import Banner from '@/components/Banner'
 import Services from '@/components/Services'
-import Contact from '@/components/Contact'
 
 import Tabs from '@/components/Tabs'
 import Slider from '@/components/Slider'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import { Header } from '@/components/Header'
+import Main_Banner from '@/components/Main_Banner'
+import Testimonials from '@/components/Testimonials'
+
 
 
 const Index = () => {
   return (
     <>
     <Navbar/>
-    <Header/>
     <Slider/>
-    <Banner/>
+    <Main_Banner/>
     <Tabs/>
+    <Banner/>
     <Services/>
-    <Contact/>
+    <Testimonials/>
+
 
     <Footer/>
    

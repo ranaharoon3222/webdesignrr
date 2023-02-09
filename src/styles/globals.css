@@ -4,15 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Raleway:wght@700&display=swap');
 
-*{
+* {
     font-family: 'Philosopher', sans-serif !important;
     font-family: 'Raleway', sans-serif !important;
 
 
 }
-.swiper-slide{
-border: 5px solid rgba(57, 75, 57, 0.572);
-border-radius: 10px;
+
+.swiper-slide {
+    /* border: 5px solid rgba(57, 75, 57, 0.572);
+border-radius: 10px; */
 
 }
 
@@ -21,11 +22,13 @@ border-radius: 10px;
     width: 90%;
     margin: auto;
 }
+
 .grid_contact_last {
-    
+
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
+
 .grid {
     grid-template-columns: repeat(1, 1fr);
 }
@@ -108,19 +111,34 @@ border-radius: 10px;
     background-color: #f55950;
     transition: 0.5s all ease;
 }
+
 /* #94A9B1 */
 .grid_contact {
-   
+
     grid-template-columns: repeat(1, 1fr);
 }
+
 .grid_contact1 {
     grid-template-columns: repeat(1, 1fr);
-       /* column-gap: 50px; */
-    
+    /* column-gap: 50px; */
+
 }
-iframe{
+.line_straight::before {
+    background-color: black;
+    width: 30px;
+    height: 1px;
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+
+iframe {
     width: 350px;
 }
+
+/* banner search bar */
+
 
 @media all and (min-width:568px) {
     .wrapper {
@@ -128,21 +146,25 @@ iframe{
         width: 90%;
         margin: auto;
     }
-    iframe{
+
+    iframe {
         width: 600px;
     }
+
     .grid_contact1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-           column-gap: 50px;
-        
+        column-gap: 50px;
+
     }
+
     .grid_contact_last {
         display: grid;
-    
+
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
     }
+
     .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -227,15 +249,30 @@ iframe{
         background-color: #f55950;
         transition: 0.5s all ease;
     }
+
     .grid_offer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
-    .span-row-2{grid-row: span 2 / auto;}
+
+    .span-row-2 {
+        grid-row: span 2 / auto;
+    }
+
     .grid_contact {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .line_straight::before {
+        background-color: black;
+        width: 65px;
+        height: 1px;
+        content: "";
+        display: inline-block;
+        position: relative;
+        top: -10px;
     }
 
 
