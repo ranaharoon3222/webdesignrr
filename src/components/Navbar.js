@@ -33,15 +33,15 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-between sm:items-center sm:justify-between ">
+              <div className="flex flex-1 items-center justify-center sm:items-center sm:justify-between ">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="block h-[80px] w-auto lg:hidden"
+                    className="block h-[50px] sm:h-[80px] w-auto lg:hidden"
                     src="/logo.svg"
                     alt="Your Company"
                   />
                   <img
-                    className="hidden h-[80px] w-auto lg:block"
+                    className="hidden h-[50px] sm:h-[80px] w-auto lg:block"
                     src="/logo.svg"
                     alt="Your Company"
                   />

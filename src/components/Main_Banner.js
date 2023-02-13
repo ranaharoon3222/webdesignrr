@@ -6,10 +6,10 @@ const Main_Banner = () => {
         
             <div className=" text-center bg-[url('https://png.pngtree.com/thumb_back/fh260/back_our/20190614/ourmid/pngtree-blue-technology-web-banner-image_122453.jpg')] py-[100px] bg-center bg-no-repeat bg-cover">
 
-                <h1 className='text-white text-7xl my-5 font-bold'>Search Portfolio</h1>
+                <h1 className='text-white text-3xl sm:text-7xl my-5 font-bold'>Search Portfolio</h1>
                 
             </div>
-            <form className='mt-[-30px]  max-w-[800px] m-auto'>
+            <form className='px-10 sm:px-0 mb-10 sm:mb-0 mt-[-30px]  sm:max-w-[800px] m-auto'>
                 <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only ">Search</label>
                 <div className="relative">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
