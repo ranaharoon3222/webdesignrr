@@ -13,13 +13,14 @@ import { Pagination } from "swiper";
 const Testimonials = () => {
     return (
         <>
+            <h2 className="text-center mt-10 text-2xl font-bold md:text-4xl">
+                What's our customers say
+            </h2>
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                 <SwiperSlide>
                     <div className="py-16">
                         <div className="xl:container m-auto px-6  md:px-12 xl:px-6">
-                            <h2 className="mb-12 text-center text-2xl font-bold md:text-4xl">
-                                What's our customers say
-                            </h2>
+
                             <div className="swiper mySwiper">
                                 <div className="swiper-wrapper pb-6">
                                     <div className="swiper-slide !bg-transparent">
@@ -65,9 +66,7 @@ const Testimonials = () => {
                 <SwiperSlide>
                     <div className="py-16">
                         <div className="xl:container m-auto px-6  md:px-12 xl:px-6">
-                            <h2 className="mb-12 text-center text-2xl font-bold md:text-4xl">
-                                What's our customers say
-                            </h2>
+                            
                             <div className="swiper mySwiper">
                                 <div className="swiper-wrapper pb-6">
                                     <div className="swiper-slide !bg-transparent">
@@ -113,9 +112,7 @@ const Testimonials = () => {
                 <SwiperSlide>
                     <div className="py-16">
                         <div className="xl:container m-auto px-6  md:px-12 xl:px-6">
-                            <h2 className="mb-12 text-center text-2xl font-bold md:text-4xl">
-                                What's our customers say
-                            </h2>
+                            
                             <div className="swiper mySwiper">
                                 <div className="swiper-wrapper pb-6">
                                     <div className="swiper-slide !bg-transparent">
@@ -158,7 +155,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                     </div></SwiperSlide>
-               
+
 
             </Swiper>
 

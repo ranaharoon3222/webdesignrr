@@ -66,35 +66,23 @@ export default function Tabs() {
                 /* Use the `selected` state to conditionally style the selected tab. */
                 <button
                   className={
-                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] py-3 px-5 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold py-3 px-5 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
+                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md' 
+                    :
+                     'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
                   }
                 >
-                  Logo Designs
+                  Logoes
                 </button>
               )}
             </Tab>
 
-           
-
-
+  
             <Tab as={Fragment}>
               {({ selected }) => (
                 /* Use the `selected` state to conditionally style the selected tab. */
                 <button
                   className={
-                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] py-3 px-5 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold py-3 px-5 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
-                  }
-                >
-                  Logo Designs
-                </button>
-              )}
-            </Tab>
-            <Tab as={Fragment}>
-              {({ selected }) => (
-                /* Use the `selected` state to conditionally style the selected tab. */
-                <button
-                  className={
-                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] py-3 px-5 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold py-3 px-5 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
+                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
                   }
                 >
                   Brochures
@@ -106,7 +94,7 @@ export default function Tabs() {
                 /* Use the `selected` state to conditionally style the selected tab. */
                 <button
                   className={
-                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] py-3 px-5 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold py-3 px-5 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
+                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
                   }
                 >
                   Catalogues
@@ -118,10 +106,10 @@ export default function Tabs() {
                 /* Use the `selected` state to conditionally style the selected tab. */
                 <button
                   className={
-                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] py-3 px-5 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold py-3 px-5 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
+                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
                   }
                 >
-                  Creative Prints
+                 Prints
                 </button>
               )}
             </Tab>
@@ -130,10 +118,10 @@ export default function Tabs() {
                 /* Use the `selected` state to conditionally style the selected tab. */
                 <button
                   className={
-                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] py-3 px-5 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold py-3 px-5 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
+                    selected ? 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-white bg-[#eb7a4a] text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md' : 'bg-[#c6c8c8d9] mt-2 sm:mt-[auto] w-[-webkit-fill-available] sm:w-[auto] mr-5 font-bold text-[18px] outine-none py-1 px-2 border-0 border-solid rounded-md  hover:text-white hover:bg-[#eb7a4a]'
                   }
                 >
-                  Company Profiles
+                  Profiles
                 </button>
               )}
             </Tab>

@@ -53,7 +53,7 @@ const Services = () => {
 
 
                         <div className='p-5 sm:p-10
-                        border-x border-solid sm:border-l-0 border-b border-[#94A9B1]'>
+                        border-x border-solid sm:border-l-0 sm:border-b-0 border-b border-[#94A9B1]'>
                             <h1 className=' text-center sm:text-left 
                             text-2xl sm:text-4xl font-bold'>Digital</h1>
                             <h1 className=' line_straight text-center sm:text-left 
@@ -65,7 +65,7 @@ const Services = () => {
 
                         <div className='p-5 sm:p-10
                         border-x border-solid border-b border-[#94A9B1]
-                        sm:border-l-0 '>
+                        sm:border-l-0 sm:border-b-0 '>
                             <h1 className=' text-center sm:text-left 
                             text-2xl sm:text-4xl font-bold'>Business</h1>
                             <h1 className=' line_straight text-center sm:text-left 
@@ -75,8 +75,8 @@ const Services = () => {
 
 
 
-                        <div className='p-5 sm:p-10
-                        border-x border-solid border-b border-[#94A9B1] sm:border-l-0
+                        <div className='p-5  sm:p-10
+                        border-x border-solid border-b sm:border-b-0 border-[#94A9B1] sm:border-l-0
                         sm:border-r-0
                         '>
                             <h1 className=' text-center sm:text-left 
